@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.0](https://github.com/googleapis/nodejs-vertexai/compare/v1.1.0...v1.2.0) (2024-05-09)
+
+
+### Features
+
+* allow users to pass string as system instruction ([a824162](https://github.com/googleapis/nodejs-vertexai/commit/a824162a29b8c6ba3ccae46c492dd28e9c2baf9c))
+* enable response style in generation config ([46b0836](https://github.com/googleapis/nodejs-vertexai/commit/46b0836aa1cefbb5af14b80dd618cda4ac71f62c))
+* remove response style in generation config ([87d8b58](https://github.com/googleapis/nodejs-vertexai/commit/87d8b5853eb7c78ffb2f4a2fffde8c30c147cea1))
+
+
+### Bug Fixes
+
+* log instead of throw appendHistory errors to avoid unhandled rejection ([2ec9e7d](https://github.com/googleapis/nodejs-vertexai/commit/2ec9e7d5519af438eb03b9f21f90b86f2575ac47))
+
 ## [1.1.0](https://github.com/googleapis/nodejs-vertexai/compare/v1.0.0...v1.1.0) (2024-04-13)
 
 
